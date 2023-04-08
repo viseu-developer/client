@@ -1,0 +1,28 @@
+/* .nav-link{
+    color: #ffff;
+} */
+.link{
+    color: #ffff;
+}
+.link:hover{
+    color: rgb(206, 159, 6);
+}
+
+/* .nav-link:hover{
+    color: rgb(206, 159, 6);
+} */
+.text-reset {
+    font-size: 25px;
+}
+.heander{
+    z-index: 100;
+    position: sticky;
+    top: 0;
+    /* background-color: #232f3e; */
+}
+.heander .navbar{
+    background-color: #232f3e;
+    color: #ffff;
+
+}
+

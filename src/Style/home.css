@@ -1,0 +1,51 @@
+/* .home{
+    width: 100%;
+    height: 120vh;
+    background-image: url("https://account.mongodb.com/static/images/auth/login_promo_desktop.png");
+    background-image: url("https://d1.awsstatic.com/china/hp/Website/Site-Merch_First-Time-Visitor_Hero-BG.95709379ff5911afed6a90a90b17102f92a608dd.png");
+    color: #ffff;
+
+} */
+
+*::-webkit-scrollbar,
+*::-webkit-scrollbar-thumb {
+  width: 12px;
+  border-radius: 13px;
+  background-clip: padding-box;
+  border: 4px solid transparent;
+  color: #232f3e;
+  
+
+}
+
+*::-webkit-scrollbar-thumb {        
+  box-shadow: inset 0 0 0 10px;
+}
+
+.home {
+  /* background: white; */
+  /* padding: 20px; */
+  width: 100%;
+  /* height: 100vh; */
+  /* margin: 100px auto; */
+  /* border-radius: 3px; */
+  overflow: auto;
+  /* color: rgba(0, 0, 0, 0); */
+  /* -webkit-text-fill-color: black; */
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+  /* transition: color .3s ease; */
+  background-image: url("https://d1.awsstatic.com/china/hp/Website/Site-Merch_First-Time-Visitor_Hero-BG.95709379ff5911afed6a90a90b17102f92a608dd.png");
+  color: #ffff;
+}
+h1{
+  color: #ffff;
+}
+.text-limit{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /* line-height: 16px;     */
+  /* max-height: 32px;      */
+  -webkit-line-clamp: 1; 
+  -webkit-box-orient: vertical;
+}

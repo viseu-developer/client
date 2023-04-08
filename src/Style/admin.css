@@ -1,0 +1,33 @@
+.admin{
+    /* background-image: url("https://d1.awsstatic.com/china/hp/Website/Site-Merch_First-Time-Visitor_Hero-BG.95709379ff5911afed6a90a90b17102f92a608dd.png"); */
+    width: 100%;
+    height: 100vh;
+    /* position:relative; */
+    /* position: absolute;
+    z-index: -3;
+    color: #ffff; */
+    /* background-image: url("https://strapi.io/assets/use-case/hero-top-right-image.svg"); */
+}
+
+/* .admin-fixed{
+    position:fixed;
+    width: 300px;
+} */
+.content{
+	overflow: auto;
+	position: relative;
+	/* padding: 20px; */
+	/* background: #333; */
+	/* margin: 10px;
+	width: 740px;
+	max-width: 97%; */
+	height: 700px;
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.content.light p:nth-child(odd){
+	background: #fff;
+	background: rgba(255,255,255,0.8);
+}
